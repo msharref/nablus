@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>نابلس</title>
+</head>
+<body>
 
+    <header>
+        <a href="#" class="logo">Nablus</a>
+        <nav class="navigation">
+            <a href="#services">about us</a>
+            <a href="#projects">Area</a>
+            <a href="#contact">contact us</a>
+        </nav>
+    </header>
+
+
+    <section class="main">
+        <div>
+            <h2>مرحبا<br><span>نابلس افضل</span></h2>
+            <h3></h3>
+            <a href="#projects" class="main-btn">انظر لأعمالنا</a>
+            <div class="social-icons">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">من نحن</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="info">
+                    <h3>Introducing People to Nablus</h3>
+                    <p>We help people get acquainted with the distinctive areas of our city, assisting them in identifying where they are and providing information about the place.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa fa-tree"></i>
+                </div>
+                <div class="info">
+                    <h3>نساهم بتطوير مدينتنا</h3>
+                    <p>نساهم في تطوير مدينتنا من خلال مساعدة الزوار</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">المناطق</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://lh6.googleusercontent.com/i67rY75rLE5i2RXr5SbbkT2CAzjwqiMZDW7jHJ4jSSPlzyTXLUyVNDAenWWX1bttsMJJygMiTUuxI4wXpJqqxxsOZIiFUz-B9nf77L-rKuTOGLapVRnztNlUj7ul_DqQfg=w1280" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <span>حارة الياسمينة</span>
+                        <a href="alyasmenah.html" class="more-details">اعرف اكتر</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://lh3.googleusercontent.com/2RjToGAXvZ7kNpfmsoB1Y8IQ0-7EwsauEy9FOi3kYvGsVNnE0z98CDOWcZcPfIq3nNoArlS91pnAi7jqtgvUBPpl8iHWM3lhsm--TYus4RI9h_GPu20Hvh5Y8Zs-TDcx_Q=w1280" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <span>حارة القريون</span>
+                        <a href="alqarion.html" class="more-details">اعرف اكتر</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://lh5.googleusercontent.com/SFK3mneuzQ4aWm6N14o6v0TSXMsNXVl4fVnZc3hbVvIjTxQVVsKx8vx_Ip10t4ZjFgC6qpKuEz9DL85X4eA_6r6TpE8uXTG-bjbtGMoIpw51P4HzEVUjsR3jrFvQkBoZuA=w1280" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <span>باب الساحة</span>
+                        <a href="babalsaha.html" class="more-details">اعرف اكتر</a>
+                    </strong>
+                </div>
+        
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">تواصل معنا</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>هاتف</h3>
+                    <p>0595100682</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>بريد الكتروني</h3>
+                    <p>helmi.tbaileh@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Helmi Tbaileh</span></p>
+        <div class="social-icons">
+
+        </div>
+    </footer>
+
+</body>
+</html>
